@@ -33,6 +33,13 @@ nav ul {
 nav ul li {
     display: inline;
     font-size: 20px;
+    padding: 2px 16px;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+nav ul li:hover {
+    background-color: red;
 }
 
 /* for sign in and sign up buttons  */
@@ -43,10 +50,11 @@ nav ul li {
 }
 
 .actions .signup {
-    background-color: blue;
-    padding: 0px 10px;
+    background-color: grey;
+    padding: 0px 8px;
     color: black;
     font-size: 16px;
+    border: none;
     border-radius: 10px;
     margin-right: 10px;
     height: 36px;
@@ -60,15 +68,16 @@ nav ul li {
 
 .actions .signin {
     background-color: black;
-    padding: 0px 10px;
+    padding: 0px 8px;
     color: white;
     font-size: 16px;
+    border: none;
     border-radius: 10px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .signin:active {
-    background-color: #0056b3;
+    background-color: wheat;
     /* Change background color when button is clicked */
 }
 
@@ -151,6 +160,7 @@ nav ul li {
     margin: 10px;
     height: 300px;
     min-width: 150px;
+    max-width: 200px;
     text-align: center;
     background-color: #F5F5F5;
     align-content: center;
